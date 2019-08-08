@@ -13,6 +13,7 @@
 		23A539B922FAF18200A38E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A539B722FAF18200A38E1C /* Main.storyboard */; };
 		23A539BB22FAF18300A38E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A539BA22FAF18300A38E1C /* Assets.xcassets */; };
 		23A539BE22FAF18300A38E1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A539BC22FAF18300A38E1C /* LaunchScreen.storyboard */; };
+		23A539C622FAF1FF00A38E1C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A539C522FAF1FF00A38E1C /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		23A539BA22FAF18300A38E1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23A539BD22FAF18300A38E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23A539BF22FAF18300A38E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A539C522FAF1FF00A38E1C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				23A539B122FAF18200A38E1C /* AppDelegate.swift */,
+				23A539C522FAF1FF00A38E1C /* TabBarController.swift */,
 				23A539B322FAF18200A38E1C /* FirstViewController.swift */,
 				23A539B522FAF18200A38E1C /* SecondViewController.swift */,
 				23A539B722FAF18200A38E1C /* Main.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23A539B622FAF18200A38E1C /* SecondViewController.swift in Sources */,
+				23A539C622FAF1FF00A38E1C /* TabBarController.swift in Sources */,
 				23A539B222FAF18200A38E1C /* AppDelegate.swift in Sources */,
 				23A539B422FAF18200A38E1C /* FirstViewController.swift in Sources */,
 			);
